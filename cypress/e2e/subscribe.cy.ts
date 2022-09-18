@@ -21,3 +21,5 @@ describe("Newsletter Subscribe Form", () => {
       cy.getByData("server-error-messagex/").should("exist").contains("already exists. Please use a different email address.")
     })
   })
+  // комментарий рандомный
+  
